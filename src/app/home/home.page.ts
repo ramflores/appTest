@@ -20,7 +20,7 @@ export class HomePage {
 
     this.http.get('https://ai.pastelerialety.com:205/api/evo-user')
       .subscribe( resp => {
-        console.log('PLETY get');
+        console.log('PLETY get', resp);
       });
 
     // this.db.getUsuarios().subscribe( (resp:any) => {
